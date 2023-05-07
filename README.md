@@ -1,23 +1,17 @@
+# PHP Comments System
 
-Title: Online Exam Portal
+This comments system allows the user to add comments and to add replies to a particular comment added by some other user. Each comment and reply, it contains thumb icon that is shown to the user to add likes for the comments and replies. Initially, all the icons are in grey will represent that the comments and the replies have not yet been liked by the user. Once the user liked a comment by clicking the grey icon, then it turns to blue to update the status and the like count will also be updated.
 
-Description:
-This is an online exam portal project that allows students to take exams, while admins can create, manage, and grade exams. The system includes a comments system for communication between students and teachers. Students can upload and download exam papers, while teachers can upload and download answer keys.
 
-The system is built using modern web technologies such as HTML, CSS, JavaScript, and PHP. It uses a MySQL database for data storage and retrieval. The project is designed to be user-friendly and responsive, allowing students to take exams on any device.
+## Getting Started
 
-Key Features:
-- Student dashboard for exam taking and exam history
-- Admin dashboard for exam creation, management, and grading
-- Comments system for communication between students and teachers
-- Upload and download system for exam papers and answer keys
-- User authentication and authorization system
-- Responsive design for use on any device
+The first thing we'll need to do is set up our database. 
+Create a database called **phpsamples**. In source you have a sql file who you can export in your db to execute.
+And in
+```  inclues/db.php ``` 
+enter your database config
 
-Contributing:
-This project is open source and contributions are welcome. If you would like to contribute, please fork the repository and submit a pull request with your changes. Issues can be reported on the repository's issue tracker.
+## Authors
 
-License:
-This project is licensed under the MIT license. See the LICENSE file for more details.
+* **Vildan Bina** - *Full Stack Developer* - [Sidora AG](https://sidora.com)
 
-Note: This is just an example description and can be modified as per your project's specifications.
