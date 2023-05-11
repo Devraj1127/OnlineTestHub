@@ -1,12 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 4.8.3
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Nov 09, 2018 at 10:57 AM
--- Server version: 10.1.36-MariaDB
--- PHP Version: 7.2.11
--- Author: Vildan Bina
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -41,12 +33,7 @@ CREATE TABLE `tbl_comment` (
 -- Dumping data for table `tbl_comment`
 --
 
-INSERT INTO `tbl_comment` (`comment_id`, `parent_comment_id`, `comment`, `comment_sender_name`, `date`) VALUES
-(70, 0, '  hello from test', 'test', '2018-11-09 09:47:39'),
-(71, 70, 'Hello from vildanbina  ', 'vildanbina', '2018-11-09 09:47:55'),
-(72, 71, 'hello from admin  ', 'admin', '2018-11-09 09:48:05'),
-(73, 0, 'Admin test', 'admin', '2018-11-09 09:48:13'),
-(74, 73, 'Hi\r\n  ', 'test', '2018-11-09 09:48:23');
+
 
 -- --------------------------------------------------------
 
@@ -66,11 +53,7 @@ CREATE TABLE `tbl_like_unlike` (
 -- Dumping data for table `tbl_like_unlike`
 --
 
-INSERT INTO `tbl_like_unlike` (`id`, `member_id`, `comment_id`, `like_unlike`, `date`) VALUES
-(54, 9, 70, 1, '2018-11-09 09:47:50'),
-(55, 10, 71, 1, '2018-11-09 09:48:01'),
-(56, 10, 70, 1, '2018-11-09 09:48:06'),
-(57, 11, 73, 1, '2018-11-09 09:48:20');
+
 
 -- --------------------------------------------------------
 
@@ -89,10 +72,7 @@ CREATE TABLE `tbl_users` (
 -- Dumping data for table `tbl_users`
 --
 
-INSERT INTO `tbl_users` (`id`, `username`, `email`, `password`) VALUES
-(9, 'vildanbina', 'vildanbina@gmail.com', '3bbc42becf853333d46101900ce65da3'),
-(10, 'admin', 'admin@gmail.com', '21232f297a57a5a743894a0e4a801fc3'),
-(11, 'test', 'test@gmail.com', '098f6bcd4621d373cade4e832627b4f6');
+
 
 --
 -- Indexes for dumped tables
